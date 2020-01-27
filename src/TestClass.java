@@ -13,10 +13,10 @@ public class TestClass {
         usb.showInfo();
         phone.showInfo();
 
-        SpecialOffer phonePromotion = new SpecialOffer("Obniżka ceny o:", "12 - 20 kwiecień",
-                "20%", phone.productPrice, phone.productName);
-        phonePromotion.priceReduction();
-        phonePromotion.showInfo();
+        SpecialOffer phonePromo = new SpecialOffer("Obniżka ceny o:", "12 - 20 kwiecień", "20%", phone);
+
+        phonePromo.priceReduction();
+        phonePromo.showInfo();
 
 
     }
